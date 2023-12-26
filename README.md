@@ -11,4 +11,4 @@ The Hello World Dialog should open and you should see something like this:
 
 ![Hello World Dialog](examples/hello_world_dialog.png)
 
-When you are done with greeting the World you can click "OK", which closes the dialog. Feel free to use it as many times a day as you like :).
+When you are done with greeting the World you can click "Ok", which closes the dialog. Feel free to use it as many times a day as you like :).
