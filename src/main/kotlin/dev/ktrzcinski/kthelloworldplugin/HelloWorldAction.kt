@@ -9,11 +9,7 @@ class HelloWorldAction : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
         val project = e.project
         val message = "Hello World!"
-        Messages.showMessageDialog(
-                project,
-                message,
-                "Hello World Dialog",
-                Messages.getInformationIcon()
-        )
+        val title = "Hello World Dialog"
+        Messages.showDialog(project, message, title, Array(1) {"Ok"}, 0, Messages.getInformationIcon())
     }
 }
